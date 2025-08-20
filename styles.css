@@ -227,7 +227,7 @@ body {
 }
 .card {
     scroll-snap-align: start;
-    flex: 0 0 20em;
+    flex: 0 0 50%;
     aspect-ratio: 5 / 3;
     background-color: var(--card-background);
     color: var(--card-font);
@@ -250,4 +250,5 @@ body {
     .card {
         flex: 0 0 100%;
     }
+
 }
